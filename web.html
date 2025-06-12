@@ -1,0 +1,107 @@
+#HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/web.css">
+</head>
+<body style="background-color: aliceblue;">
+    <div class="header">
+        <h1>PERFUME</h1>
+        <ul>
+            <li>Home|</li>
+            <li>Product|</li>
+            <li>About us|</li>
+            <li>Contact|</li>
+        </ul>
+    
+    </div>
+    <div class="search">
+        <input placeholder="SEARCH HERE">
+
+    </div>
+    <div class="product">
+        <div class="box">
+            <img src="/photo 1.jpg" width="300px" height="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat officiis aut expedita porro illum. Ex distinctio reiciendis adipisci repellendus qui!</p>
+        </div>
+        <div class="box">
+            <img src="/photo 2.jpg" width="300px" height="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat officiis aut expedita porro illum. Ex distinctio reiciendis adipisci repellendus qui!</p>
+        </div>
+        <div class="box">
+            <img src="/photo 3.webp" width="300px" height="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat officiis aut expedita porro illum. Ex distinctio reiciendis adipisci repellendus qui!
+            </p>
+        </div>
+
+    </div>
+    <div class="aboutus">
+        <h2 style="text-align:center">ABOUT US</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nihil! Quas facere dolorum necessitatibus, porro reprehenderit incidunt quod dolorem, doloribus vitae sint eius rem obcaecati et, delectus unde officiis nisi debitis doloremque enim vel! Vitae atque officiis quo tempora, velit odit voluptas laboriosam necessitatibus hic quas earum, adipisci similique laborum.</p>
+
+    </div>
+    <div class="contact">
+        <h3>CONTACT HERE</h3>
+        <p>9876538280</p>
+        <p>maheshr@gmail.com</p>
+        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ut incidunt iste animi quod voluptatibus alias porro consequatur id hic debitis nobis non facilis neque dicta, ab error ipsum aliquam molestias pariatur? Maxime nostrum totam, inventore veniam ducimus fugiat incidunt aut delectus est temporibus vero. Repellendus delectus reiciendis minus cupiditate? Reprehenderit ducimus possimus id, illo aut itaque nisi minus aspernatur pariatur nam? Deleniti quam facilis illo sunt nihil, aliquid dicta.</P>
+    </div>
+</body>
+</html>
+
+#CSS
+.header{
+    color:White;
+    background-color:black;
+    padding:20px;   
+}
+h1,ul,li{
+    display: inline;
+}
+ul{
+    margin-left:60%;
+}
+li{
+    color:grey;
+    cursor:pointer;
+}
+li:hover{
+    color:white;
+}
+input{
+    width:80%;
+    padding:20px;
+    
+}
+.search{
+    padding:50px;
+    text-align: center;
+}
+.box{
+    border-width:2px;
+    border-style: solid;
+    border-color:black;
+    display:inline-block;
+    width:300px;
+}
+.product{
+    text-align: center;
+
+}
+.box:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+.aboutus{
+    padding:20px;
+}
+.contact{
+    text-align: center;
+    color:white;
+    background-color: black;
+    padding:50px;
+}
